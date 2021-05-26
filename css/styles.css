@@ -442,7 +442,7 @@ figure.effect-layla img {
 }
 
 figure.effect-layla figcaption {
-	padding: 1em;
+	padding: 3em;
 }
 
 figure.effect-layla figcaption::before,
@@ -480,7 +480,6 @@ figure.effect-layla figcaption::after {
 
 figure.effect-layla h2 {
 	padding-top: 16%;
-	padding-left: 1%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
