@@ -442,7 +442,7 @@ figure.effect-layla img {
 }
 
 figure.effect-layla figcaption {
-	padding: 3em;
+	padding: 2em;
 }
 
 figure.effect-layla figcaption::before,
@@ -484,6 +484,12 @@ figure.effect-layla h2 {
 	transition: transform 0.35s;
 }
 
+figure.effect-layla h3 {
+	padding-top: 6%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
 figure.effect-layla p {
 	padding: 0.5em 2em;
 	text-transform: none;
@@ -494,6 +500,12 @@ figure.effect-layla p {
 
 figure.effect-layla img,
 figure.effect-layla h2 {
+	-webkit-transform: translate3d(0,-30px,0);
+	transform: translate3d(0,-30px,0);
+}
+
+figure.effect-layla img,
+figure.effect-layla h3 {
 	-webkit-transform: translate3d(0,-30px,0);
 	transform: translate3d(0,-30px,0);
 }
@@ -526,8 +538,22 @@ figure.effect-layla:hover p {
 	transform: translate3d(0,0,0);
 }
 
+figure.effect-layla:hover h3,
+figure.effect-layla:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
 figure.effect-layla:hover figcaption::after,
 figure.effect-layla:hover h2,
+figure.effect-layla:hover p,
+figure.effect-layla:hover img {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+figure.effect-layla:hover figcaption::after,
+figure.effect-layla:hover h3,
 figure.effect-layla:hover p,
 figure.effect-layla:hover img {
 	-webkit-transition-delay: 0.15s;
