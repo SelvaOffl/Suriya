@@ -434,7 +434,7 @@ figure.effect-romeo:hover p {
 /*---------------*/
 
 figure.effect-layla {
-	background: #18a367;
+	background: #000000;
 }
 
 figure.effect-layla img {
@@ -479,7 +479,7 @@ figure.effect-layla figcaption::after {
 }
 
 figure.effect-layla h2 {
-	padding-top: 16%;
+	padding-top: 6%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
